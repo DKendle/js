@@ -1,7 +1,12 @@
 let resultDisplay = document.getElementById("result")
-let result;
+let input = document.getElementById("input-form").action
+/*
+input.addEventListener("submit",
 
-function isEven(n){
+
+function (e){
+    e.preventDefault()
+
     if(n % 2 === 0){
         result = "Your number is Even."
     }else{
@@ -9,4 +14,7 @@ function isEven(n){
     }
     resultDisplay.innerHTML = result
 }
+
+)
+*/
 
